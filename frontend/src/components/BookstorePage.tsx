@@ -48,7 +48,7 @@ function BookstorePage() {
   return (
     <div className="container mt-4">
       <Header />
-      <div      >
+      <div>
         <div className="toast-header">
           <strong className="me-auto">Cart</strong>
           <button
@@ -241,6 +241,9 @@ function BookstorePage() {
           </div>
         </div>
       </div>
+      <Link to="/adminbooks" className="btn btn-outline-dark ms-2">
+        Admin Books
+      </Link>
     </div>
   );
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/michaelwoodall/RiderProjects/Mission11/backend/Mission11/Mission11/Mission11.csproj": {}
+    "/Users/michaelwoodall/Desktop/IS 401/Mission11/backend/Mission11/Mission11/Mission11.csproj": {}
   },
   "projects": {
-    "/Users/michaelwoodall/RiderProjects/Mission11/backend/Mission11/Mission11/Mission11.csproj": {
+    "/Users/michaelwoodall/Desktop/IS 401/Mission11/backend/Mission11/Mission11/Mission11.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/michaelwoodall/RiderProjects/Mission11/backend/Mission11/Mission11/Mission11.csproj",
+        "projectUniqueName": "/Users/michaelwoodall/Desktop/IS 401/Mission11/backend/Mission11/Mission11/Mission11.csproj",
         "projectName": "Mission11",
-        "projectPath": "/Users/michaelwoodall/RiderProjects/Mission11/backend/Mission11/Mission11/Mission11.csproj",
+        "projectPath": "/Users/michaelwoodall/Desktop/IS 401/Mission11/backend/Mission11/Mission11/Mission11.csproj",
         "packagesPath": "/Users/michaelwoodall/.nuget/packages/",
-        "outputPath": "/Users/michaelwoodall/RiderProjects/Mission11/backend/Mission11/Mission11/obj/",
+        "outputPath": "/Users/michaelwoodall/Desktop/IS 401/Mission11/backend/Mission11/Mission11/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/michaelwoodall/.nuget/NuGet/NuGet.Config"

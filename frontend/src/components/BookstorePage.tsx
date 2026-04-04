@@ -19,7 +19,7 @@ function BookstorePage() {
   useEffect(() => {
     const fetchCategories = async () => {
       const response = await fetch(
-        "https://mission13-backend-hvbwgmb4ehh8akc7.swedencentral-01.azurewebsites.net/BookstoreCategories"
+        "https://mission13-backend-hvbwgmb4ehh8akc7.swedencentral-01.azurewebsites.net/Bookstore/Categories"
       );
       const data = await response.json();
       setCategories(data);
@@ -31,7 +31,7 @@ function BookstorePage() {
   useEffect(() => {
     const fetchBooks = async () => {
       const response = await fetch(
-        `https://localhost:5000/Bookstore/Books?pageSize=${pageSize}&pageNum=${pageNum}&sortOrder=${sortOrder}&category=${encodeURIComponent(
+        `https://mission13-backend-hvbwgmb4ehh8akc7.swedencentral-01.azurewebsites.net/Bookstore/Books?pageSize=${pageSize}&pageNum=${pageNum}&sortOrder=${sortOrder}&category=${encodeURIComponent(
           selectedCategory
         )}`
       );

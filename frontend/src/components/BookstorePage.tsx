@@ -19,7 +19,7 @@ function BookstorePage() {
   useEffect(() => {
     const fetchCategories = async () => {
       const response = await fetch(
-        "https://localhost:5000/Bookstore/Categories"
+        "https://mission13backend-mw-h9fpbfd4hdafhcf6.francecentral-01.azurewebsites.net/Bookstore/Categories"
       );
       const data = await response.json();
       setCategories(data);

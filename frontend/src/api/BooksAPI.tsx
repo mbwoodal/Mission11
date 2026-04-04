@@ -1,6 +1,6 @@
 import type { Book } from "../Book";
 
-const BASE_URL = "https://mission13-backend-mw-cgffh7byb9hsendg.francecentral-01.azurewebsites.net/Bookstore";
+const BASE_URL = "https://mission13backend-mw-h9fpbfd4hdafhcf6.francecentral-01.azurewebsites.net/Bookstore";
 
 export type BooksResponse = {
   books: Book[];

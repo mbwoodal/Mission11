@@ -19,7 +19,7 @@ function BookstorePage() {
   useEffect(() => {
     const fetchCategories = async () => {
       const response = await fetch(
-        "https://mission13backend-mw-h9fpbfd4hdafhcf6.francecentral-01.azurewebsites.net/Bookstore/Categories"
+        "https://mission13-backend-hvbwgmb4ehh8akc7.swedencentral-01.azurewebsites.net/BookstoreCategories"
       );
       const data = await response.json();
       setCategories(data);
@@ -241,9 +241,6 @@ function BookstorePage() {
           </div>
         </div>
       </div>
-      <Link to="/adminbooks" className="btn btn-outline-dark ms-2">
-        Admin Books
-      </Link>
     </div>
   );
 }
